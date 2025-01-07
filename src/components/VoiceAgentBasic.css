@@ -1,0 +1,58 @@
+/* src/components/VoiceAgentBasic.css */
+
+/* Base Styles for Voice Agent Basic Settings */
+.voice-agent-basic {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .voice-agent-basic h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .voice-agent-basic p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .voice-agent-basic .settings-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .voice-agent-basic .settings-list li {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 767px) {
+    .voice-agent-basic h2 {
+      font-size: 28px;
+    }
+  
+    .voice-agent-basic p {
+      font-size: 16px;
+    }
+  
+    .voice-agent-basic .settings-list li {
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablet and larger screens */
+  @media (min-width: 768px) {
+    .voice-agent-basic h2 {
+      font-size: 32px;
+    }
+  
+    .voice-agent-basic p {
+      font-size: 18px;
+    }
+  
+    .voice-agent-basic .settings-list li {
+      font-size: 16px;
+    }
+  }
+  

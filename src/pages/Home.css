@@ -1,0 +1,57 @@
+/* Home Page Styling */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #ffffff; /* White background (as per your design) */
+    color: #111827; /* Text color: Almost black */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px; /* Padding: 60px top/bottom, 20px left/right */
+    background-color: rgba(0, 0, 0, 0.05); /* Light overlay for subtle contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+  }
+  
+  .main-heading {
+    font-size: 36px; /* H1: 36px font size */
+    font-weight: 700; /* Bold font */
+    color: #111827; /* Text color: Almost black */
+    margin-bottom: 20px;
+  }
+  
+  .subheading {
+    font-size: 16px; /* Body text size */
+    font-weight: 400; /* Regular weight */
+    color: #6b7280; /* Text color: Light gray */
+    margin-bottom: 30px;
+  }
+  
+  .get-started-btn {
+    background-color: #3B82F6; /* Blue background (secondary color) */
+    color: #ffffff; /* White text */
+    padding: 12px 24px; /* Button padding */
+    font-size: 18px; /* Button text size */
+    font-weight: 500; /* Medium weight */
+    border: none;
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #2563EB; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .get-started-btn:focus {
+    outline: none; /* Remove focus outline */
+  }
+  

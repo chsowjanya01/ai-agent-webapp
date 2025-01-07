@@ -1,0 +1,58 @@
+/* src/components/VoiceAgentWorkflow.css */
+
+/* Base Styles for Voice Agent Workflow Section */
+.voice-agent-workflow {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .voice-agent-workflow h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .voice-agent-workflow p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .voice-agent-workflow .workflow-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .voice-agent-workflow .workflow-list li {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 767px) {
+    .voice-agent-workflow h2 {
+      font-size: 28px;
+    }
+  
+    .voice-agent-workflow p {
+      font-size: 16px;
+    }
+  
+    .voice-agent-workflow .workflow-list li {
+      font-size: 14px;
+    }
+  }
+  
+  /* Tablet and larger screens */
+  @media (min-width: 768px) {
+    .voice-agent-workflow h2 {
+      font-size: 32px;
+    }
+  
+    .voice-agent-workflow p {
+      font-size: 18px;
+    }
+  
+    .voice-agent-workflow .workflow-list li {
+      font-size: 16px;
+    }
+  }
+  

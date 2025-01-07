@@ -1,0 +1,71 @@
+/* Features Section Styling */
+.features-container {
+    background-color: #ffffff;
+    padding: 60px 0; /* 60px padding top and bottom (matching your initial design) */
+    text-align: center;
+  }
+  
+  .features-header {
+    font-size: 30px; /* Font size for Key Features header */
+    font-weight: 700; /* Bold font weight */
+    color: #111827; /* Text color: Almost Black */
+    margin-bottom: 40px; /* Margin between header and first feature */
+  }
+  
+  .feature {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; /* Body text size for features */
+    color: #111827; /* Text color: Almost Black */
+  }
+  
+  .feature-icon {
+    font-size: 40px; /* Icon size */
+    margin-right: 20px; /* Spacing between icon and title */
+  }
+  
+  .feature-title {
+    font-size: 24px; /* Title size for feature */
+    font-weight: 700; /* Bold font for titles */
+    color: #111827; /* Title color */
+  }
+  
+  .feature-description {
+    font-size: 16px; /* Description text size */
+    font-weight: 400; /* Regular font weight */
+    color: #6b7280; /* Light gray text color for description */
+    margin-top: 10px;
+  }
+  
+  .section-header {
+    font-size: 28px; /* Font size for section headers (Outreach Bots, Voice Agent) */
+    font-weight: 700; /* Bold weight */
+    color: #111827; /* Section header color */
+    margin-top: 40px; /* Spacing above the section headers */
+  }
+  
+  @media (max-width: 768px) {
+    .feature {
+      flex-direction: column;
+      text-align: center; /* Stacking features vertically on smaller screens */
+    }
+  
+    .feature-icon {
+      margin-bottom: 10px; /* Space between icon and title when stacked */
+    }
+  
+    .features-header {
+      font-size: 24px; /* Smaller header size for mobile */
+    }
+  
+    .feature-title {
+      font-size: 20px; /* Smaller title size on mobile */
+    }
+  
+    .feature-description {
+      font-size: 14px; /* Slightly smaller description text on mobile */
+    }
+  }
+  

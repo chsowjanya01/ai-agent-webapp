@@ -1,0 +1,35 @@
+.hero-section {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    color: #111827;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    color: #6B7280;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #3B82F6;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center; /* Align the icon and text */
+  }
+  
+  .cta-button i {
+    margin-right: 8px; /* Add space between icon and text */
+  }
+  
+  .cta-button:hover {
+    background-color: #2563EB;
+  }
+  

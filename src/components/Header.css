@@ -1,0 +1,64 @@
+/* General Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Increased horizontal padding for better spacing */
+  background: linear-gradient(to right, #1F2937, #3B82F6); /* Gradient background */
+  color: #FFFFFF;
+  position: sticky; /* Make header sticky at the top */
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; /* Ensure the header stays on top */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Logo Styling */
+.logo {
+  font-size: 26px; /* Slightly larger font size */
+  font-weight: bold;
+  color: #FFFFFF;
+  transition: transform 0.3s ease; /* Smooth logo hover effect */
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Slightly enlarge logo on hover */
+}
+
+/* Navigation Links Styling */
+.nav-links {
+  display: flex;
+  gap: 30px; /* Increased gap for better spacing between links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
+}
+
+/* Hover Effects for Links */
+.nav-links a:hover {
+  color: #F59E0B; /* Change to amber color on hover */
+  transform: scale(1.1); /* Slightly increase size on hover */
+  border-bottom: 2px solid #F59E0B; /* Add an underline effect with amber color */
+}
+
+/* Mobile Header Adjustments */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack nav links vertically */
+    gap: 15px; /* Reduced gap for mobile */
+  }
+
+  .logo {
+    font-size: 22px; /* Adjust logo size for mobile */
+  }
+}
